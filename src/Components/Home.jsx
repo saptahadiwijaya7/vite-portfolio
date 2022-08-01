@@ -6,16 +6,19 @@ import reactLogo from '../assets/react.svg'
 import './Home.css';
 import { ImageUpload } from './ImageUpload';
 import { MyCarousel } from './Carousel';
+import logo from '../assets/logo.svg';
+import Bounce from 'react-reveal/Bounce';
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#feature' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Tools', href: '#' },
+  { name: 'Experience', href: '#feature' },
+  { name: 'Tentang', href: '#' },
+  { name: 'Kontak', href: '#' },
 ]
 
 export default function Home() {
   return (
+    <Bounce left>
     <div className="relative bg-gray-900 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
@@ -30,7 +33,7 @@ export default function Home() {
                       <img
                         alt="Workflow"
                         className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        src={logo}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -43,7 +46,7 @@ export default function Home() {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                    <a key={item.name} href={item.href} className="font-medium text-white hover:text-orange-400">
                       {item.name}
                     </a>
                   ))}
@@ -72,7 +75,7 @@ export default function Home() {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        src="https://tailwindui.com/img/logos/workflow-mark-orange-400.svg"
                         alt=""
                       />
                     </div>
@@ -108,11 +111,17 @@ export default function Home() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Data to enrich your</span>{' '}
-                <span className="block text-orange-400 xl:inline">Portfolio Sapta Hadiwijaya</span>
+                <span className="block text-orange-100 xl:inline">Portfolio</span>{' '}
+                <span className="block text-orange-400 xl:inline">Sapta Hadiwijaya</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Profiling dapat lebih efektif dan efisien melalui beberapa akun platform, tautan tersedia dalam carousel.
+              <h4 className='text-xl tracking-tight font-extrabold text-orange-100 mt-4'>
+                <span>Junior Web Developer</span>
+              </h4>
+              <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                Profiling dapat lebih efektif dan efisien melalui beberapa akun media sosial saya, tautan media sosial tersedia dalam carousel.
+              </p>
+              <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                Source code dan desain portfolio dapat dilihat melalui tombol dibawah.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -125,7 +134,8 @@ export default function Home() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="https://github.com/saptahadiwijaya7"
+                    target="_blank"
                     className="w-full flex items-center justify-center px-8 py-3 border border-orange-400 text-base font-medium rounded-md text-orange-400 bg-transparent hover:bg-transparent md:py-4 md:text-lg md:px-10"
                   >
                     Github
@@ -140,5 +150,6 @@ export default function Home() {
       <MyCarousel />
       </div>
     </div>
+    </Bounce>
   )
 }

@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export function MyCarousel() {
 
     return (
-        <div className='content-center pt-28 mt-10 w-5/6'>
+        <div className='content-center pt-16 mt-24 w-5/6'>
         <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
             <div>
                 <img src={youtube} />
