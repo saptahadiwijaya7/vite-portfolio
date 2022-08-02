@@ -5,9 +5,10 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import reactLogo from '../assets/react.svg'
 import './Home.css';
 import { ImageUpload } from './ImageUpload';
-import { MyCarousel } from './Carousel';
+import {MyCarousel} from './Carousel';
 import logo from '../assets/logo.svg';
 import Bounce from 'react-reveal/Bounce';
+import Feature1 from './Feature1';
 
 const navigation = [
   { name: 'Tools', href: '#' },
@@ -18,8 +19,9 @@ const navigation = [
 
 export default function Home() {
   return (
+    <>
     <Bounce left>
-    <div className="relative bg-gray-900 overflow-hidden">
+    <div className="relative bg-gray-900 overflow-hidden h-screen">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 
@@ -149,7 +151,10 @@ export default function Home() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5 bg-gray-900">
       <MyCarousel />
       </div>
+      <Feature1 />
     </div>
     </Bounce>
+    
+    </>
   )
 }
