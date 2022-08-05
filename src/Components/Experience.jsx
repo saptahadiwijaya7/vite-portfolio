@@ -23,13 +23,13 @@ const experience = [
 export default function Experience() {
     return (
         <Bounce right>
-            <div className='my-20'>
+            <div className='my-20' id="experience">
                 <div className="lg:text-center my-10">
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
                         Experience
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
-                        Mulai menjadi front-end developer sejak tahun 2020, berawal dari divisi operasional yang kemudian berubah haluan ikut berpartisipasi mengerjakan project website kantor
+                        Memiliki pengalaman berkontribusi dalam development fintech web apps dan personal loan apps dan admin panel
                     </p>
                 </div>
                 <div className="relative bg-white overflow-hidden">

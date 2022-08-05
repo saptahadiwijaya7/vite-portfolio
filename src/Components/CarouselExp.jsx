@@ -26,8 +26,8 @@ export function MyCarouselExp() {
     return (
         <div className='content-center pt-0 ml-6 mt-0 w-5/6'>
             <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
-                {features.map((feature) => (
-                    <div>
+                {features.map((feature, index) => (
+                    <div key={index}>
                         <img src={feature.image} />
                         <p className="legend hover:text-orange-600">{feature.link}</p>
                     </div>

@@ -4,7 +4,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const features = [
   {
-    name: 'Latar',
+    name: 'Latar Belakang',
     description:'D3',
     description2:'Manajemen Informatika',
     icon: "D3",

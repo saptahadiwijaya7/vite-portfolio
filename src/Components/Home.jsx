@@ -11,17 +11,17 @@ import Bounce from 'react-reveal/Bounce';
 import Feature1 from './Feature1';
 
 const navigation = [
-  { name: 'Tools', href: '#' },
-  { name: 'Experience', href: '#feature' },
-  { name: 'Tentang', href: '#' },
-  { name: 'Kontak', href: '#' },
+  { name: 'Programming', href: '#programming' },
+  { name: 'Tools', href: '#tools' },
+  { name: 'Experience', href: '#experience' },
+  { name: 'About', href: '#about' },
 ]
 
 export default function Home() {
   return (
     <>
     <Bounce left>
-    <div className="relative bg-gray-900 overflow-hidden h-screen">
+    <div className="relative bg-gray-900 overflow-hidden h-screen" id="hero">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 
@@ -52,9 +52,7 @@ export default function Home() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                    Log in
-                  </a>
+               
                 </div>
               </nav>
             </div>
@@ -120,7 +118,7 @@ export default function Home() {
                 <span>Junior Web Developer</span>
               </h4>
               <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Profiling dapat lebih efektif dan efisien melalui beberapa akun media sosial saya, tautan media sosial tersedia dalam carousel.
+                Profiling dapat lebih efektif dan efisien melalui media sosial, klik tautan dalam carousel disamping untuk mengunjungi.
               </p>
               <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Source code dan desain portfolio dapat dilihat melalui tombol dibawah.
