@@ -127,6 +127,7 @@ export default function Home() {
                 <div className="rounded-md shadow">
                   <a
                     href="https://www.figma.com/file/rAkaOzei2imDzX7SJuotIp/Untitled?node-id=0%3A1"
+                    target="_blank"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-400 hover:bg-orange-500 md:py-4 md:text-lg md:px-10"
                   >
                     Figma
