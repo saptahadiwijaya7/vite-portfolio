@@ -23,7 +23,7 @@ const experience = [
 
 export default function About() {
     return (
-        <Bounce right>
+        <Bounce left>
             <div className='my-20' id="about">
                 <div className="lg:text-center my-10">
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
