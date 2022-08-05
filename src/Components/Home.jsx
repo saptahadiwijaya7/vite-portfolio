@@ -111,10 +111,10 @@ export default function Home() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block text-orange-100 xl:inline">Portfolio</span>{' '}
-                <span className="block text-orange-400 xl:inline">Sapta Hadiwijaya</span>
+                <span className="block text-white xl:inline">Portfolio</span>{' '}
+                <span className="block text-blue-500 xl:inline">Sapta Hadiwijaya</span>
               </h1>
-              <h4 className='text-xl tracking-tight font-extrabold text-orange-100 mt-4'>
+              <h4 className='text-xl tracking-tight font-extrabold text-white mt-4'>
                 <span>Junior Web Developer</span>
               </h4>
               <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -128,7 +128,7 @@ export default function Home() {
                   <a
                     href="https://www.figma.com/file/rAkaOzei2imDzX7SJuotIp/Untitled?node-id=0%3A1"
                     target="_blank"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-400 hover:bg-orange-500 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-400 md:py-4 md:text-lg md:px-10"
                   >
                     Figma
                   </a>
@@ -137,7 +137,7 @@ export default function Home() {
                   <a
                     href="https://github.com/saptahadiwijaya7"
                     target="_blank"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-orange-400 text-base font-medium rounded-md text-orange-400 bg-transparent hover:bg-transparent md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-blue-500 text-base font-medium rounded-md text-blue-500 bg-transparent hover:bg-transparent md:py-4 md:text-lg md:px-10"
                   >
                     Github
                   </a>

@@ -31,9 +31,9 @@ export default function Feature1() {
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-20">
             {features.map((feature) => (
-              <div key={feature.name} className="relative bg-gray-800 rounded-md w-5/6 h-32 p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+              <div key={feature.name} className="relative bg-gray-800 rounded-md border-2 border-blue-500/20 w-5/6 h-32 p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                 <dt>
-                  <div className="absolute flex items-center text-3xl justify-center h-24 w-24 rounded-md bg-orange-500 text-white">
+                  <div className="absolute flex items-center text-3xl justify-center h-24 w-24 rounded-md bg-blue-500 text-gray-900">
                     {feature.icon}
                   </div>
                   <p className="ml-28 text-xl leading-6 font-medium text-gray-100 text-left">{feature.name}</p>

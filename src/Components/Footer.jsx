@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <footer className="text-center lg:text-left bg-indigo-800 text-gray-100 mt-12">
-            <div className="flex justify-center items-center lg:justify-between pt-6 pb-6 pl-24 pr-24 border-b border-gray-300">
+        <footer className="text-center lg:text-left bg-gradient-to-b from-gray-900 to-blue-900 text-gray-100 mt-12">
+            <div className="flex justify-center items-center lg:justify-between pt-6 pb-6 pl-24 pr-24 border-b border-t border-blue-500/20">
                 <div className="mr-12 hidden lg:block">
                     <span>Kunjungi media sosial untuk mengenal lebih dekat:</span>
                 </div>
@@ -72,17 +72,14 @@ export default function Footer() {
             justify-center
             md:justify-start
           ">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cubes"
-                                className="w-4 mr-3" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 512 512">
-                                <path fill="currentColor"
-                                    d="M488.6 250.2L392 214V105.5c0-15-9.3-28.4-23.4-33.7l-100-37.5c-8.1-3.1-17.1-3.1-25.3 0l-100 37.5c-14.1 5.3-23.4 18.7-23.4 33.7V214l-96.6 36.2C9.3 255.5 0 268.9 0 283.9V394c0 13.6 7.7 26.1 19.9 32.2l100 50c10.1 5.1 22.1 5.1 32.2 0l103.9-52 103.9 52c10.1 5.1 22.1 5.1 32.2 0l100-50c12.2-6.1 19.9-18.6 19.9-32.2V283.9c0-15-9.3-28.4-23.4-33.7zM358 214.8l-85 31.9v-68.2l85-37v73.3zM154 104.1l102-38.2 102 38.2v.6l-102 41.4-102-41.4v-.6zm84 291.1l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6zm240 112l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6z">
-                                </path>
-                            </svg>
+                           
                             Portfolio Website
                         </h6>
                         <p>
                             Portfolio ini menggunakan vite-react dan tailwind css, untuk saat ini belum tersedia untuk mobile view.
+                        </p>
+                        <p className="mt-10 text-gray-400">
+                        © 2022 Copyright: Sapta Hadiwijaya
                         </p>
                     </div>
                     <div className="">
@@ -90,16 +87,16 @@ export default function Footer() {
                             Referensi
                         </h6>
                         <p className="mb-4">
-                            <a href="https://vitejs.dev/" className="text-gray-100">Vite React</a>
+                            <a href="https://vitejs.dev/" className="text-gray-400">Vite React</a>
                         </p>
                         <p className="mb-4">
-                            <a href="https://tailwindcss.com/" className="text-gray-100">Tailwind</a>
+                            <a href="https://tailwindcss.com/" className="text-gray-400">Tailwind</a>
                         </p>
                         <p className="mb-4">
-                            <a href="https://heroicons.com/" className="text-gray-100">Hero Icon</a>
+                            <a href="https://heroicons.com/" className="text-gray-400">Hero Icon</a>
                         </p>
                         <p>
-                            <a href="https://mui.com/" className="text-gray-100">Material</a>
+                            <a href="https://mui.com/" className="text-gray-400">Material</a>
                         </p>
                     </div>
                     <div className="">
@@ -107,19 +104,19 @@ export default function Footer() {
                             Navigasi Link
                         </h6>
                         <p className="mb-4">
-                            <a href="#hero" className="text-gray-100">Hero</a>
+                            <a href="#hero" className="text-gray-400">Hero</a>
                         </p>
                         <p className="mb-4">
-                            <a href="#programming" className="text-gray-100">Programming</a>
+                            <a href="#programming" className="text-gray-400">Programming</a>
                         </p>
                         <p className="mb-4">
-                            <a href="#tools" className="text-gray-100">Tools</a>
+                            <a href="#tools" className="text-gray-400">Tools</a>
                         </p>
                         <p className="mb-4">
-                            <a href="#experience" className="text-gray-100">Experience</a>
+                            <a href="#experience" className="text-gray-400">Experience</a>
                         </p>
                         <p>
-                            <a href="#about" className="text-gray-100">Tentang Saya</a>
+                            <a href="#about" className="text-gray-400">Tentang Saya</a>
                         </p>
                     </div>
                     <div className="">
@@ -157,10 +154,6 @@ export default function Footer() {
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className="text-center p-6 bg-gray-900">
-                <span>© 2022 Copyright:</span>
-                <a className="text-gray-100 font-semibold" href="https://tailwind-elements.com/">Sapta Hadiwijaya</a>
             </div>
         </footer>
     );

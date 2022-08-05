@@ -25,7 +25,7 @@ export default function Experience() {
         <Bounce right>
             <div className='my-20' id="experience">
                 <div className="lg:text-center my-10">
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">
+                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
                         Experience
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
@@ -45,7 +45,7 @@ export default function Experience() {
                         {experience.map((item, index) => (
                             <div className="relative pt-8 px-4 sm:px-6 lg:px-8 text-left" key={index}>
                                 <h4 className="text-md tracking-tight font-bold text-gray-900 sm:text-5xl md:text-3xl">
-                                    <span className="block text-orange-400 xl:inline">{item.name}</span>
+                                    <span className="block text-white xl:inline">{item.name}</span>
                                 </h4>
                                 <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0">
                                     {item.description}
