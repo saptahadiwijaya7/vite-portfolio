@@ -4,6 +4,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import {MyCarouselExp} from './CarouselExp'
 import Bounce from 'react-reveal/Bounce'
+import Feature1 from './Feature1'
 
 const experience = [
     {
@@ -32,7 +33,8 @@ export default function Experience() {
                         Memiliki pengalaman berkontribusi dalam development fintech web apps dan personal loan apps dan admin panel
                     </p>
                 </div>
-                <div className="relative bg-white overflow-hidden">
+                
+                <div className="relative overflow-hidden">
                     <div className="max-w-7xl mx-auto">
                         <div className="relative z-10 pb-8 bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 

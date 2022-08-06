@@ -28,7 +28,7 @@ export function MyCarousel() {
     ]
 
     return (
-        <div className='content-center pt-16 mt-24 w-5/6'>
+        <div className='content-center pt-32 mt-28 w-3/4'>
             <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
                 {features.map((feature, index) => (
                     <div key={index}>

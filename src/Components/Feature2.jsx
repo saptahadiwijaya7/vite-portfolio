@@ -44,10 +44,10 @@ const features = [
 export default function Feature2() {
   return (
     <Bounce left>
-    <div className="py-12 bg-gray-900" id="tools">
+    <div className="py-24 bg-blue-900/20 " id="tools">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          <p className=" text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
             Tools
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
@@ -58,7 +58,7 @@ export default function Feature2() {
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-20">
             {features.map((feature) => (
-              <div key={feature.name} className="relative bg-gray-800 border-2 border-blue-500/20 rounded-md w-5/6 h-32 p-4">
+              <div key={feature.name} className="relative bg-blue-900 border-2 border-blue-500/20 rounded-md w-5/6 h-32 p-4">
                 <dt>
                   <div className="absolute flex items-center text-3xl justify-center h-24 w-24 rounded-md bg-blue-500 text-white">
                      <img src={feature.icon} className="h-12 w-12" aria-hidden="true"/>

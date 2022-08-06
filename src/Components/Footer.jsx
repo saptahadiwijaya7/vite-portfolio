@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
     return (
-        <footer className="text-center lg:text-left bg-gradient-to-b from-gray-900 to-blue-900 text-gray-100 mt-12">
-            <div className="flex justify-center items-center lg:justify-between pt-6 pb-6 pl-24 pr-24 border-b border-t border-blue-500/20">
+        <footer className="text-center lg:text-left text-gray-100 mt-0">
+            <div className="flex justify-center items-center lg:justify-between pt-20 pb-6 pl-24 pr-24 border-b border-blue-500/20">
                 <div className="mr-12 hidden lg:block">
                     <span>Kunjungi media sosial untuk mengenal lebih dekat:</span>
                 </div>
