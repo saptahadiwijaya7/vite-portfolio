@@ -60,7 +60,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <div className="mx-6 py-10 text-center md:text-left pl-20">
+            <div className="mx-6 py-10 text-center md:text-left xl:pl-20">
                 <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="">
                         <h6 className="
@@ -76,7 +76,7 @@ export default function Footer() {
                             Portfolio Website
                         </h6>
                         <p>
-                            Portfolio ini menggunakan vite-react dan tailwind css, untuk saat ini belum tersedia untuk mobile view.
+                            Portfolio ini menggunakan vite-react dan tailwind css, untuk saat ini belum tersedia untuk tablet view.
                         </p>
                         <p className="mt-10 text-gray-400">
                         © 2022 Copyright: Sapta Hadiwijaya

@@ -25,11 +25,11 @@ export default function Experience() {
     return (
         <Bounce right>
             <div className='my-20' id="experience">
-                <div className="lg:text-center my-10">
+                <div className="lg:text-center my-10 px-4 sm:px-6 lg:px-8">
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
                         Experience
                     </p>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
+                    <p className="mt-4 max-w-2xl xl:text-xl text-md text-gray-400 lg:mx-auto">
                         Memiliki pengalaman berkontribusi dalam development fintech web apps dan personal loan apps dan admin panel
                     </p>
                 </div>
@@ -45,11 +45,11 @@ export default function Experience() {
                     </div>
                     <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-gray-900 pl-4">
                         {experience.map((item, index) => (
-                            <div className="relative pt-8 px-4 sm:px-6 lg:px-8 text-left" key={index}>
+                            <div className="relative pt-8 px-0 sm:px-6 lg:px-8 text-left" key={index}>
                                 <h4 className="text-md tracking-tight font-bold text-gray-900 sm:text-5xl md:text-3xl">
                                     <span className="block text-white xl:inline">{item.name}</span>
                                 </h4>
-                                <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0">
+                                <p className="mt-0 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0">
                                     {item.description}
                                 </p>
                             </div>

@@ -20,7 +20,7 @@ export default function Home() {
     <Bounce left>
     <div className="relative bg-gradient-to-l from-blue-900/30 to-gray-900/30 overflow-hidden h-screen" id="hero">
       <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+        <div className="relative z-10 pb-4 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 
           <Popover>
             <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
@@ -105,8 +105,8 @@ export default function Home() {
             </Transition>
           </Popover>
 
-          <main className="mt-20 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-52">
-            <div className="sm:text-center lg:text-left">
+          <main className="md:mt-20 mt-2 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-52">
+            <div className="sm:text-left lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block text-white xl:inline">Portfolio</span>{' '}
                 <span className="block text-blue-500 xl:inline">Sapta Hadiwijaya</span>
@@ -144,10 +144,9 @@ export default function Home() {
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-48 lg:w-1/3">
+      <div className="lg:absolute lg:inset-y-0 lg:right-48 lg:w-1/3 w-1/2 mx-auto text-center">
       <MyCarousel />
       </div>
-      {/* <Feature1 /> */}
     </div>
     </Bounce>
     
