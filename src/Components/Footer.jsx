@@ -8,7 +8,7 @@ export default function Footer() {
                     <span>Kunjungi media sosial untuk mengenal lebih dekat:</span>
                 </div>
                 <div className="flex justify-center pl-24 pr-24">
-                    <a href="#!" className="mr-6 text-gray-100">
+                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                             className="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 320 512">
@@ -17,7 +17,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="#!" className="mr-6 text-gray-100">
+                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                             className="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="currentColor"
@@ -25,7 +25,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="#!" className="mr-6 text-gray-100">
+                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
                             className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
                             <path fill="currentColor"
@@ -76,7 +76,7 @@ export default function Footer() {
                             Portfolio Website
                         </h6>
                         <p>
-                            Portfolio ini menggunakan vite-react dan tailwind css, untuk saat ini belum tersedia untuk tablet view.
+                            Portfolio ini menggunakan vite-react dan tailwind css, untuk saat ini belum tersedia untuk mobile view.
                         </p>
                         <p className="mt-10 text-gray-400">
                         © 2022 Copyright: Sapta Hadiwijaya

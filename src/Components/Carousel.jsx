@@ -32,7 +32,7 @@ export function MyCarousel() {
             <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false}>
                 {features.map((feature, index) => (
                     <div key={index}>
-                        <img src={feature.image} />
+                        <img src={feature.image}/>
                         <p className="legend hover:text-orange-600"><a href={feature.url} target="_blank">{feature.link}</a></p>
                     </div>
                 ))}
