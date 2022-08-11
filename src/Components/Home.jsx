@@ -108,7 +108,7 @@ export default function Home() {
               <main className="md:mt-20 mt-2 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-52">
                 <div className="sm:text-left lg:text-left">
                   <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                    <span className="block text-white xl:inline">Portfolio</span>{' '}
+                    <span className="block text-white xl:inline">Profile</span>{' '}
                     <span className="block text-blue-500 xl:inline">Sapta Hadiwijaya</span>
                   </h1>
                   <h4 className='text-xl tracking-tight font-extrabold text-white mt-4'>
