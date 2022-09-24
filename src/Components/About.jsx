@@ -18,8 +18,8 @@ export default function About() {
                     <div className='w-1/2 float-left border-r xl:border-r-0'>
                         <div>
                             <p className="xl:mt-10 max-w-4xl mr-4 lg:mx-auto xl:text-md text-gray-400">
-                                Mulai menjadi front-end developer sejak tahun 2020, berawal dari divisi operasional yang kemudian berubah haluan ikut berpartisipasi mengerjakan project website kantor yang menggunakan react js,
-                                hingga akhirnya terus belajar menjadi seorang front end developer hingga saat ini. 
+                                Mulai menjadi front-end developer sejak tahun 2020, berawal dari divisi operasional yang kemudian berubah haluan berpartisipasi mengerjakan project website kantor yang menggunakan react js.
+                                Saat ini saya aktif mengelola konten digital milik sendiri yaitu web gawaian.com dan channel youtube gawaian. 
                             </p>
                         </div>
                         <img src={self} className="lg:w-1/6 w-1/3 mr-4 mt-4 float-left" />
@@ -27,7 +27,7 @@ export default function About() {
                             Sapta Hadiwijaya
                         </p>
                         <p className="mt-0 text-xs xl:text-lg text-gray-400">
-                            Junior Front End Dev
+                            Front End Dev
                         </p>
                     </div>
                     <div className=''>

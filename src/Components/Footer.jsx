@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="mr-12 hidden lg:block">
                     <span>Kunjungi media sosial untuk mengenal lebih dekat:</span>
                 </div>
-                <div className="flex justify-center pl-24 pr-24">
+                <div className="flex justify-center">
                     <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                             className="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -73,10 +73,10 @@ export default function Footer() {
             md:justify-start
           ">
                            
-                            Portfolio Website
+                            Profile Website
                         </h6>
                         <p>
-                            Portfolio ini menggunakan vite-react dan tailwind css, untuk saat ini belum tersedia untuk mobile view.
+                            Profile web ini menggunakan vite-react dan tailwind css, masih dilakukan optimasi untuk responsive multi device view.
                         </p>
                         <p className="mt-10 text-gray-400">
                         © 2022 Copyright: Sapta Hadiwijaya

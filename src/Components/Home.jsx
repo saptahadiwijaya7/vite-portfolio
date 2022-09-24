@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Bounce left>
-        <div className="relative bg-gradient-to-l from-blue-900/30 to-gray-900/30 overflow-hidden h-screen" id="hero">
+        <div className="relative bg-gradient-to-l from-blue-900/30 to-gray-900/30 overflow-hidden min-h-screen pb-4" id="hero">
           <div className="max-w-7xl mx-auto">
             <img src={blueBg} className="absolute lg:w-1/2 right-20 lg:opacity-50 opacity-0" />
             <div className="relative z-10 pb-4 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
@@ -112,7 +112,7 @@ export default function Home() {
                     <span className="block text-blue-500 xl:inline">Sapta Hadiwijaya</span>
                   </h1>
                   <h4 className='text-xl tracking-tight font-extrabold text-white mt-4'>
-                    <span>Junior Web Developer</span>
+                    <span>Web Developer</span>
                   </h4>
                   <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                     Profiling dapat lebih efektif dan efisien melalui media sosial, klik tautan dalam carousel disamping untuk mengunjungi.
