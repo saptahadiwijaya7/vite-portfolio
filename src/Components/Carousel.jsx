@@ -12,7 +12,7 @@ export function MyCarousel() {
         {
             link: 'youtube/gawaian',
             image: youtube,
-            url: 'https://www.youtube.com/watch?v=_owAmDIsA5w'
+            url: 'https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos'
         },
         {
             link: 'instagram/saptadragon',
@@ -22,7 +22,7 @@ export function MyCarousel() {
         {
             link: 'blogger/sepuluhdimensi',
             image: blogger,
-            url: 'https://www.sepuluhdimensi.online/'
+            url: 'https://www.gawaian.com/'
         },
 
     ]
