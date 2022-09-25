@@ -115,10 +115,10 @@ export default function Home() {
                     <span>Web Developer</span>
                   </h4>
                   <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                    Profiling dapat lebih efektif dan efisien melalui media sosial, klik tautan dalam carousel disamping untuk mengunjungi.
+                    Profiling dapat lebih efektif dan efisien melalui media sosial, klik tautan dalam carousel slider untuk mengunjungi.
                   </p>
                   <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                    Source code dan desain portfolio dapat dilihat melalui tombol dibawah.
+                    Source code dan desain web ini dapat dilihat melalui tombol dibawah.
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md shadow">

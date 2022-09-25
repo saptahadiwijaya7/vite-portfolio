@@ -87,16 +87,16 @@ export default function Footer() {
                             Referensi
                         </h6>
                         <p className="mb-4">
-                            <a href="https://vitejs.dev/" className="text-gray-400">Vite React</a>
+                            <a href="https://vitejs.dev/" target="_blank" className="text-gray-400">Vite React</a>
                         </p>
                         <p className="mb-4">
-                            <a href="https://tailwindcss.com/" className="text-gray-400">Tailwind</a>
+                            <a href="https://tailwindcss.com/" target="_blank" className="text-gray-400">Tailwind</a>
                         </p>
                         <p className="mb-4">
-                            <a href="https://heroicons.com/" className="text-gray-400">Hero Icon</a>
+                            <a href="https://heroicons.com/" target="_blank" className="text-gray-400">Hero Icon</a>
                         </p>
                         <p>
-                            <a href="https://mui.com/" className="text-gray-400">Material</a>
+                            <a href="https://mui.com/" target="_blank" className="text-gray-400">Material</a>
                         </p>
                     </div>
                     <div className="">

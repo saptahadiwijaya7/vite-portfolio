@@ -10,33 +10,33 @@ const features = [
   {
     name: 'Git',
     description:
-      'Level: Beginner',
+    'Exp: 2 Yrs',
       description2:
-      'Exp: Pull request, branching, stashing, rebase',
+      'Func: Contributor',
     icon: git,
   },
   {
     name: 'Postman',
     description:
-    'Level: Beginner',
+    'Exp: 2 Yrs',
     description2:
-      'Exp: API call test',
+      'Func: API call test',
     icon: postman,
   },
   {
     name: 'Figma',
     description:
-    'Level: Beginner',
+    'Exp: 2 Yrs',
     description2:
-      'Exp: Sketching, importing static web design',
+      'Func: Sketching, slicing',
     icon: figma,
   },
   {
     name: 'VS Code',
     description:
-    'Level: Beginner',
+    'Exp: 2 Yrs',
     description2:
-      'Exp: Git Lens Extension',
+      'Func: Git Lens Extension',
     icon: visualStudio,
   },
 ]
