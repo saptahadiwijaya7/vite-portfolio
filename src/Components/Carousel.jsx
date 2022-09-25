@@ -20,7 +20,7 @@ export function MyCarousel() {
             url: 'https://www.instagram.com/saptadragon/'
         },
         {
-            link: 'blogger/sepuluhdimensi',
+            link: 'blogger/gawaian.com',
             image: blogger,
             url: 'https://www.gawaian.com/'
         },

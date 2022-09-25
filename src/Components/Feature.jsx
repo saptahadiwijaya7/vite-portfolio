@@ -6,50 +6,50 @@ const features = [
   {
     name: 'Javascript',
     description:
-      'Level: Beginner',
-    icon: GlobeAltIcon,
+      'Exp: 2 Yrs',
+    icon: 'js',
   },
   {
     name: 'HTML',
     description:
-    'Level: Beginner',
-    icon: ScaleIcon,
+    'Exp: 2 Yrs',
+    icon: '<>',
   },
   {
     name: 'CSS',
     description:
-    'Level: Beginner',
-    icon: LightningBoltIcon,
+    'Exp: 2 Yrs',
+    icon: 'css',
   },
   {
     name: 'React JS',
     description:
-    'Level: Beginner',
-    icon: AnnotationIcon,
+    'Exp: 2 Yrs',
+    icon: '{ }',
   },
   {
     name: 'Next JS',
     description:
-    'Level: Beginner',
-    icon: LightningBoltIcon,
+    'Exp: 1 Yrs',
+    icon: 'next',
   },
   {
     name: 'Material UI',
     description:
-    'Level: Beginner',
-    icon: AnnotationIcon,
+    'Exp: 2 Yrs',
+    icon: 'mui',
   },
   {
     name: 'Ant Design',
     description:
-    'Level: Beginner',
-    icon: AnnotationIcon,
+    'Exp: 2 Yrs',
+    icon: 'antd',
   },
   {
     name: 'Tailwind',
     description:
-    'Level: Beginner',
-    icon: AnnotationIcon,
+    'Exp: 1 Yrs',
+    icon: 'tw',
   },
 ]
 
@@ -68,12 +68,12 @@ export default function Feature() {
         </div>
 
         <div className="mt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10">
+          <dl className="space-y-0 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10  grid grid-cols-2">
             {features.map((feature) => (
-              <div key={feature.name} className="relative">
+              <div key={feature.name} className="relative py-4 md:py-0">
                 <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-gray-900">
-                    <feature.icon className="h-6 w-6" aria-hidden="true" />
+                  <div className="absolute flex text-md items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-gray-900">
+                    {feature.icon}
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-gray-100 text-left">{feature.name}</p>
                 </dt>

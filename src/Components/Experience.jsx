@@ -9,15 +9,15 @@ import Feature1 from './Feature1'
 const experience = [
     {
       name: 'Finanku Web Apps',
-      description:'In house project Finanku, menggunakan React JS',
+      description:'Web apps Fintech FinanKu, menggunakan React JS',
     },
     {
       name: 'Angstrom Web Apps',
-      description: 'In house project Angstrom, menggunakan Next JS dan Ant Design',
+      description: 'Web apps Fintech Angstrom, menggunakan Next JS dan Ant Design',
     },
     {
       name: 'Angstrom Admin',
-      description: 'In house project Angstrom, menggunakan React Admin dan Material UI',
+      description: 'Admin Panel Angstrom, menggunakan React Admin dan Material UI',
     },
   ]
 
@@ -49,7 +49,7 @@ export default function Experience() {
                                 <h4 className="text-md tracking-tight font-bold text-gray-900 sm:text-5xl md:text-3xl">
                                     <span className="block text-white xl:inline">{item.name}</span>
                                 </h4>
-                                <p className="mt-0 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0">
+                                <p className="mt-0 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-2 md:text-xl lg:mx-0 pr-1">
                                     {item.description}
                                 </p>
                             </div>
