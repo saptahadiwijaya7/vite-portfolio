@@ -1,0 +1,1 @@
+run "yarn dev --host" to expose local network
