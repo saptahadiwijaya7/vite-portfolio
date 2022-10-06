@@ -58,7 +58,7 @@ export default function Feature2() {
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-20">
             {features.map((feature) => (
-              <div key={feature.name} className="relative bg-blue-900 border-2 h-auto border-blue-500/20 rounded-md xl:w-5/6 w-full xl:h-32 p-4">
+              <div key={feature.name} className="relative bg-blue-900 border-2 h-auto border-blue-500/20 rounded-md xl:w-5/6 w-full p-4">
                 <dt>
                   <div className="absolute flex items-center text-3xl justify-center h-24 w-24 rounded-md bg-blue-500 text-white">
                      <img src={feature.icon} className="h-12 w-12" aria-hidden="true"/>

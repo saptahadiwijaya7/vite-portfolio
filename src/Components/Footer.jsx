@@ -1,4 +1,5 @@
 import React from "react";
+import waBtn from '../assets/wa-btn.png'
 
 export default function Footer() {
     return (
@@ -8,7 +9,7 @@ export default function Footer() {
                     <span>Kunjungi media sosial untuk mengenal lebih dekat:</span>
                 </div>
                 <div className="flex justify-center">
-                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos" className="mr-6 text-gray-100">
+                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                             className="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 320 512">
@@ -17,7 +18,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos" className="mr-6 text-gray-100">
+                    <a href="#!" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                             className="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path fill="currentColor"
@@ -25,7 +26,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA/videos" className="mr-6 text-gray-100">
+                    <a href="https://www.youtube.com/channel/UCkUQSVoMFW_Y6dx6EPnqwQA" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
                             className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
                             <path fill="currentColor"
@@ -41,7 +42,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="#!" className="mr-6 text-gray-100">
+                    <a href="https://www.linkedin.com/in/sapta-hadiwijaya-a82532166/" className="mr-6 text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                             className="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512">
@@ -50,7 +51,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="#!" className="text-gray-100">
+                    <a href="https://github.com/saptahadiwijaya7" className="text-gray-100">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                             className="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                             <path fill="currentColor"
@@ -72,14 +73,14 @@ export default function Footer() {
             justify-center
             md:justify-start
           ">
-                           
+
                             Profile Website
                         </h6>
                         <p>
                             Profile web ini menggunakan vite-react dan tailwind css, masih dilakukan optimasi untuk responsive multi device view.
                         </p>
                         <p className="mt-10 text-gray-400">
-                        © 2022 Copyright: Sapta Hadiwijaya
+                            © 2022 Copyright: Sapta Hadiwijaya
                         </p>
                     </div>
                     <div className="">
@@ -152,6 +153,11 @@ export default function Footer() {
                             </svg>
                             +6288901102738
                         </p>
+                        <div className="flex items-center m-auto md:m-0 justify-center md:justify-start mb-4 w-40">
+                            <a aria-label="Chat on WhatsApp" target='_blank' href="https://wa.me/6288901102738">
+                                <img src={waBtn} />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
