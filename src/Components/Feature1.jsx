@@ -11,20 +11,20 @@ const features = [
   },
   {
     name: 'Experience',
-    description: '2 Tahun',
+    description: '3 Tahun',
     description2: 'Front End Developer',
-    icon: "2 tahun",
+    icon: "3 tahun",
   },
   {
     name: 'Project',
-    description: '0 Project',
-    description2: 'Project Published',
-    icon: "0",
+    description: '3 Project',
+    description2: 'Project Finished',
+    icon: "3",
   },
   {
     name: 'Experience',
     description: '2 Tahun',
-    description2: 'Operation Assistant',
+    description2: 'Operation Assistant Manager',
     icon: "2 tahun",
   },
 ]

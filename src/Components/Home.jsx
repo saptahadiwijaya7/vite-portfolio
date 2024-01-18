@@ -6,6 +6,7 @@ import { MyCarousel } from './Carousel';
 import logo from '../assets/logo.svg';
 import Bounce from 'react-reveal/Bounce';
 import blueBg from '../assets/blueBg.png';
+import MyQr from './QRBTF';
 
 const navigation = [
   { name: 'Programming', href: '#programming' },
@@ -120,6 +121,15 @@ export default function Home() {
                   <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                     Source code dan desain web ini dapat dilihat melalui tombol dibawah.
                   </p>
+                  <MyQr />
+                  <br/>
+                  <div className='sm:flex'>
+                    {/* <iframe id="ytplayer" type="text/html" width="320" height="180"
+                      src="https://youtube.com/embed/lWlIJNsuNEQ?autoplay=1" 
+                      frameborder="0"
+                      allow="fullscreen">
+                    </iframe> */}
+                  </div>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md shadow">
                       <a
